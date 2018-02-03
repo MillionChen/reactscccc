@@ -9,6 +9,7 @@ function onChange(a, b, c) {
 
 ReactDom.render(
     <Carousel afterChange={onChange}>
-       <div>bbb</div>
+        <div><h3>1</h3></div>
+
     </Carousel>
     , window.root);
